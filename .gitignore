@@ -1,0 +1,13 @@
+﻿.vs/
+Library/
+Logs/
+Build/
+obj/
+Temp/
+*.sln
+*.csproj
+Assets/Ludiq/Bolt.Flow/Generated/*.db
+Assets/Ludiq/Bolt.Flow/Generated/*.db.meta
+UserSettings/
+.vsconfig
+Packages/packages-lock.json
