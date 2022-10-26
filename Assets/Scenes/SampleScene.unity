@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 216335677}
   m_Layer: 0
-  m_Name: Cells
+  m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -414,7 +414,7 @@ GameObject:
   - component: {fileID: 1148742343}
   - component: {fileID: 1148742342}
   m_Layer: 0
-  m_Name: GridManager
+  m_Name: GridCreator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -432,11 +432,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a65c87174dca94f84ad0a1780d3e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridHeight: 10
-  gridWidth: 5
+  gridWidth: 8
+  gridHeight: 6
   cellObject: {fileID: 2727863699750661349, guid: 21b23c64f1c3acb4597d4036a887aa92, type: 3}
-  scaleMultiplier: 1
-  cells: []
+  row: {fileID: 1177714067733840005, guid: a0e28157ebefa9f4b825cad4e0cc4017, type: 3}
 --- !u!4 &1148742343
 Transform:
   m_ObjectHideFlags: 0
